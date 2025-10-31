@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Kodluyoruz Html Ödev 2</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <!--Birinci Header "h1 formunda"-->
+    <h1>Berkay Nergiz</h1>
+    <h2>Hakkımda</h2>
+    <p style="max-width:70%;">Merhaba, ben Berkay Nergiz. 2001 yılında İstanbul'da doğdum. Şu anda Marmara Üniversitesi Yönetim Bilişim Sistemleri bölümünde öğrenim görüyorum.</p>
+    <!--İkinci Header "h2 formunda"-->
+    <h2>Hobilerim</h2>
+    <p>Boş zamanlarımda kitap okumayı, film izlemeyi ve oyun oynamayı severim. Ayrıca doğa yürüyüşleri yapmayı da çok seviyorum.</p>
+    <!--Resim Eklemek-->
+
+    <!--İkinci Header ve Liste Yapısı-->
+    <h2>Sevdiğim Diziler, Filmler ve Kitaplar</h2>
+    <ul style="list-style-type:square">
+        <li><b>Filmler</b></li>
+            <ul style="list-style-type:circle">
+                <li><a href="https://www.imdb.com/title/tt1375666/"><b><i>Inception</i></b></a><a href="#film1_inceleme" style="text-decoration:none; color:black;"><i>: İncelememi görmek için tıkla.</i></a></li>
+                <li><a href="https://www.imdb.com/title/tt0816692/"><b><i>Interstellar</i></b></a><a href="#film2_inceleme" style="text-decoration:none; color:black;"><i>: İncelememi görmek için tıkla.</i></a></li>
+            </ul>
+        <li><b>Diziler</b></li>
+            <ul style="list-style-type:circle">
+                <li><a href="https://www.imdb.com/title/tt0944947/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_game%2520of%2520thrones"><b><i>Game of Thrones</i></b></a></li>
+                <li><a href="https://www.imdb.com/title/tt2017109/?ref_=nv_sr_srsg_0_tt_7_nm_1_in_0_q_banshee"><b><i>Banshee</i></b></a></li>
+            </ul>
+        <li><b>Kitaplar</b></li>
+            <ul style="list-style-type:circle">
+                <li><a href="https://www.goodreads.com/book/show/4671.The_Great_Gatsby"><b><i>The Great Gatsby</i></b></a></li>
+                <li><a href="https://www.goodreads.com/book/show/2657.To_Kill_a_Mockingbird"><b><i>To Kill a Mockingbird</i></b></a></li>
+            </ul>
+    </ul>
+    <!--Film İnceleme Bölümü-->
+    <h2>Film İncelemelerim</h2>
+        <!--Id ile sayfa bölümlendirilmesi-->
+        <h3 id="film1_inceleme" style="margin-left:40px;"><strong>Inception İncelemesi</strong></h3>
+        <!--Fotoğrafa bağlantı eklemek-->
+        <a href="https://www.imdb.com/title/tt1375666/">
+            <img src="./images/inception.jpg" alt="Inception film afişi" style="margin-left:40px; width:400px; height:250px;">
+        </a>
+        <p style="margin-left:40px; max-width:70%;">Inception, Christopher Nolan'ın yönettiği ve başrollerinde Leonardo DiCaprio'nun yer aldığı bir bilim kurgu filmidir. Film, rüya içinde rüya konsepti üzerine kuruludur ve izleyiciyi derin düşüncelere sevk eder. Görsel efektleri ve karmaşık hikaye yapısıyla dikkat çeker. Inception, izleyicilere gerçeklik ve bilinçaltı arasındaki ince çizgiyi sorgulatır ve unutulmaz bir sinema deneyimi sunar.</p>
+        <!--Id ile sayfa bölümlendirilmesi-->
+        <h3 id="film2_inceleme" style="margin-left:40px;"><strong>Interstellar İncelemesi</strong></h3>
+        <!--Fotoğrafa bağlantı eklemek-->
+        <a href="https://www.imdb.com/title/tt0816692/">
+            <img src="./images/interstellar.jpg" alt="Interstellar film afiş," style="margin-left:40px; width:400px; height:250px;">
+        </a>
+        <p style="margin-left:40px; max-width:70%;">Interstellar, Christopher Nolan'ın yönettiği ve başrollerinde Matthew McConaughey'in yer aldığı bir bilim kurgu filmidir. Film, insanlığın hayatta kalma mücadelesini ve uzay keşfini konu alır. Görsel efektleri ve duygusal derinliğiyle dikkat çeker. Interstellar, izleyicilere sevgi, fedakarlık ve zaman kavramları üzerine düşündüren etkileyici bir hikaye sunar.</p>
+
+</body>
+</html>
