@@ -1,0 +1,90 @@
+/**** General Styles ****/
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#FAF3E1;
+    color: #222222;
+    text-align: center;
+}
+
+/**** Header Styles ****/
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 12px;
+    background-color: #F5E7C6;
+    border-bottom: 2px solid #FF6D1F;
+}
+
+header h1 {
+    flex-basis: 100%;
+    margin: 0;
+    color: #FF6D1F;
+}
+
+header h3 {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: #222222;
+}
+
+header h3:not(:last-child)::after {
+    content: "|";
+    margin-left: 12px;
+    color: #555;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 600;
+}
+
+header a:hover {
+    color: #FF6D1F;
+}
+
+/**** Content Styles ****/
+
+article {
+    background-color: #F5E7C6;
+    margin: 24px auto;
+    padding: 20px;
+    max-width: 720px;
+    border: 1px solid #FF6D1F;
+    border-radius: 6px;
+}
+
+h2, h3 {
+    color: #FF6D1F;
+}
+
+article p {
+    font-style: italic;
+}
+
+/**** List Styles ****/
+
+ul {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+ol {
+    list-style-position: inside;
+    padding-left: 0;
+    font-weight: 700;
+}
+
+footer {
+    margin-top: 24px;
+    background-color: #F5E7C6;
+    border-top: 2px solid #FF6D1F;
+    padding: 12px;
+}
