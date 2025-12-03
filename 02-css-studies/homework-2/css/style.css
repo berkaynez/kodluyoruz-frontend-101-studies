@@ -1,0 +1,86 @@
+/*** Global Styles ***/
+
+body {
+    font-family: 'Google Sans Code', sans-serif;
+    text-align: center;
+    background-color: #FFFFFF;
+
+}
+
+table {
+    margin: 0 auto;
+    font-size: medium;
+}
+
+footer {
+    font-size: small;
+    margin-top: 20px;
+}
+
+/*** Boxes ***/
+
+.main_box {
+    width: 100%;
+    max-width: 1393.5px;
+    margin: 0 auto 2px;
+    padding: 16px 12px;
+    background-color: #f1f1f1;
+    box-sizing: border-box;
+}
+
+.table_box {
+    width: 100%;
+    max-width: 1397.5px;
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 2px 0;
+    table-layout: fixed;
+}
+
+.table_box td {
+    padding: 16px 12px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.table_box td:nth-child(1) {
+    background-color: #6de0da;
+}
+
+.table_box td:nth-child(2) {
+    background-color: #67cbd0;
+}
+
+.table_box td:nth-child(3) {
+    background-color: #54a9a6;
+}
+
+.table_box td p {
+    margin: 0;
+}
+
+/*** Logo ***/
+
+#logo {
+    width: 351px;
+    height: 113px;
+}
+
+/*** Subtitle ***/  
+
+#subtitle {
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+/*** Center Table Font ***/
+
+#ct_table_font {
+    font-size: smaller;
+}
+
+/*** Right Table Font ***/
+
+#rt_table_font {
+    font-size: small;
+}
