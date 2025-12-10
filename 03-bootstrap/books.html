@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EasyReads | Books</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark bg-gradient">
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="assets/logo.png" alt="EasyReads" width="60" height="60" class="d-inline-block">
+          <span class="ms-2 text-light">EasyReads</span>
+        </a>       
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="books.html">Books</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="notes.html">Notes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="about.html">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!--Hero-->
+    <main class="cover-container bg-light py-5 text-center">
+     <h1 class="fw-bold text-body-emphasis">My Book Collection</h1> 
+     <div class="col-lg-6 mx-auto"> 
+      <p class="lead text-muted">Here are some of the books I've read recently. Each book has left a mark on me and I cherish the memories and insights gained from them.</p>
+    </div>
+    </main>
+    <!--Hero End-->
+
+    <!--Books-->
+    <div style="grid-template-columns: 1fr 1fr;" class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+            <div class="col-md-4">
+            <img
+            src="assets/siddhartha.jpeg" class="img-fluid rounded-start book-cover" alt="Siddhartha">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                <h5 class="card-title">Siddhartha - Hermann Hesse</h5>
+                <p class="card-text"></p>Bir Hermann Hesse kitabıdır. Kitapta kişinin özbenliğini bularak uygarlığın yerleşik biçimlerinden sıyrılma çabası anlatılmaktadır. Kurtuluşu daha çok doğu, özellikle hint felsefesinde gören hermann hesse siddharta adlı kahramanın hikayesini anlatırken bir yandan da doğu felsefesinin ana hatlarını çizmektedir. Kitapta belki de en çok dikkatimi çeken; yol göstericilerin izinden giderek erişilmeye çalışılana erişilemeyeceği,öğretenlerin yolunu izlemek yerine özgün, yeni bir yol yapılandırmanın gerekliliği idi.
+                <p class="card-text"><small class="text-body-secondary">Last updated 4 days ago</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="grid-template-columns: 1fr 1fr;" class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+            <div class="col-md-4">
+            <img
+            src="assets/vys.jpeg" class="img-fluid rounded-start book-cover" alt="Vatan Yahut Silistre">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                <h5 class="card-title">Vatan Yahut Silistre - Namık Kemal</h5>
+                <p class="card-text"></p>Vatan Yahut Silistre, Namık Kemal'in en bilinen oyunlarından biridir. Oyun, Osmanlı İmparatorluğu'nun Rusya ile yaptığı 1853-1856 Kırım Savaşı sırasında geçer ve vatan sevgisi, kahramanlık ve fedakarlık temalarını işler. Baş karakterler, vatanlarını savunmak için büyük bir cesaret ve kararlılıkla mücadele ederler. Oyun, Türk tiyatrosunda önemli bir yere sahiptir ve Namık Kemal'in vatanseverlik duygusunu yansıtan eserlerinden biridir.
+                <p class="card-text"><small class="text-body-secondary">Last updated 9 days ago</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Books End-->
+
+    <!-- Footer -->
+    <footer class="footer bg-dark bg-gradient text-light py-4 mt-5">
+      <div class="container text-center">
+        <ul class="nav justify-content-center mb-3">
+          <li class="nav-item"><a href="index.html" class="nav-link px-2 text-light">Home</a></li>
+          <li class="nav-item"><a href="books.html" class="nav-link px-2 text-light">Books</a></li>
+          <li class="nav-item"><a href="readings.html" class="nav-link px-2 text-light">Readings</a></li>
+          <li class="nav-item"><a href="notes.html" class="nav-link px-2 text-light">Notes</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link px-2 text-light">About</a></li>
+        </ul>
+        <p class="mb-0 small text-secondary">© 2025 EasyReads</p>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>

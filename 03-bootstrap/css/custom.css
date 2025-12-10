@@ -1,0 +1,20 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.book-cover {
+  width: 60%;
+  max-height: 300px;
+}
+
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
+.footer .nav-link {
+  color: #f8f9fa;
+}
+
+.footer .nav-link:hover {
+  color: #0dcaf0;
+}
